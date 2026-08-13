@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SirenCorp — High-Performance Web Design &amp; Development | Bengaluru</title>
+  <meta name="description" content="SirenCorp designs and builds high-speed, conversion-focused websites and web apps with native WhatsApp ordering and Instagram integration. Based in Bengaluru, Karnataka.">
+  <meta name="keywords" content="Web development Bengaluru, website designer Bangalore, WhatsApp website integration, Instagram shop developer, high speed websites India">
+  <meta property="og:title" content="SirenCorp — We Build Websites That Get Noticed">
+  <meta property="og:description" content="Custom-coded websites, high-conversion landing pages, and web apps with WhatsApp and Instagram integration. Bengaluru, Karnataka.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION
+       ========================================================================= -->
+  <header>
+    <nav class="wrap">
+      <a href="#top" class="logo">
+        <div class="logo-radar">
+          <span class="logo-mark"></span>
+        </div>
+        SIRENCORP
+        <span class="logo-sub mono">/ BLR</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services">What we do</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#calculator">Pricing &amp; Spec</a></li>
+        <li><a href="#instagram">Instagram Hub</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" style="width:16px;height:16px;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @sirencorp
+        </a>
+        <button class="btn btn-whatsapp btn-sm" data-wa-action data-wa-line="line1" data-wa-msg="Hi SirenCorp! I'd like to get a quote for a new website.">
+          <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+          WhatsApp Chat
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <a href="#services">What we do</a>
+    <a href="#work">Work &amp; Portfolio</a>
+    <a href="#calculator">Interactive Spec &amp; Pricing</a>
+    <a href="#instagram">Instagram Live Hub</a>
+    <a href="#faq">Frequently Asked Questions</a>
+    <a href="#contact">Direct Dispatch &amp; Contact</a>
+    <div class="mobile-nav-socials">
+      <button class="btn btn-whatsapp btn-sm" style="flex:1;" data-wa-action data-wa-line="line1">
+        WhatsApp Line 1
+      </button>
+      <button class="btn btn-insta btn-sm" style="flex:1;" data-insta-dm>
+        Instagram DM
+      </button>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- =========================================================================
+         HERO SECTION
+         ========================================================================= -->
+    <section class="hero">
+      <div class="beacon" aria-hidden="true">
+        <div class="beacon-sweep"></div>
+        <div class="beacon-grid"></div>
+        <div class="beacon-crosshair"></div>
+        <div class="beacon-crosshair v"></div>
+        <div class="ring r1"></div>
+        <div class="ring blue r2"></div>
+        <div class="ring r3"></div>
+        <div class="ring blue r4"></div>
+      </div>
+
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="eyebrow">
+              <span class="blip-dot"></span>
+              Studio Signal · Bengaluru, Karnataka
+            </div>
+            <h1>We build websites <em>that get noticed.</em></h1>
+            <p class="hero-sub">
+              SirenCorp designs and engineers bespoke web applications, high-converting landing pages, and digital storefronts with native WhatsApp ordering and Instagram commerce integration. Zero bloated templates. Pure human code.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary btn-lg" data-wa-action data-wa-line="line1" data-wa-msg="Hi SirenCorp! I'd like to talk about starting a new website project.">
+                <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                Launch on WhatsApp
+              </button>
+              <a href="#calculator" class="btn btn-ghost btn-lg">
+                Calculate Project Spec
+              </a>
+              <a href="tel:+919692281388" class="btn btn-ghost btn-lg mono">
+                📞 +91 96922 81388
+              </a>
+            </div>
+
+            <!-- Social pills row -->
+            <div class="social-pills-row">
+              <a href="https://wa.me/919692281388" target="_blank" rel="noopener noreferrer" class="social-pill wa">
+                <span class="pulse-dot" style="background:#25D366;width:6px;height:6px;border-radius:50%;"></span>
+                WhatsApp Line 1: +91 96922 81388
+              </a>
+              <a href="https://wa.me/916371055013" target="_blank" rel="noopener noreferrer" class="social-pill wa">
+                <span class="pulse-dot" style="background:#3b82f6;width:6px;height:6px;border-radius:50%;"></span>
+                Line 2 (Tech): +91 63710 55013
+              </a>
+              <a href="#instagram" class="social-pill ig">
+                <span>📸</span>
+                Instagram: @sirencorp.studio
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Telemetry Card -->
+          <div class="telemetry-card">
+            <div class="telemetry-header mono">
+              <div class="telemetry-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span>SIREN_DISPATCH_V2.0</span>
+            </div>
+            <div class="telemetry-body mono">
+              <div class="telemetry-row">
+                <span class="telemetry-label">STATION STATUS</span>
+                <span class="status-active">
+                  <span class="pulse-dot"></span> ON AIR · ACCEPTING PROJECTS
+                </span>
+              </div>
+              <div class="telemetry-row">
+                <span class="telemetry-label">STATION TIME</span>
+                <span id="bengaluruClock" style="color:var(--text); font-weight:600;">--:--:-- IST</span>
+              </div>
+              <div class="telemetry-row">
+                <span class="telemetry-label">HQ COORDINATES</span>
+                <span style="color:var(--text-muted);">12.9716° N, 77.5946° E</span>
+              </div>
+              <div class="telemetry-row">
+                <span class="telemetry-label">RESPONSE FREQ</span>
+                <div class="latency-bars">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="telemetry-row">
+                <span class="telemetry-label">DISPATCH LINES</span>
+                <span style="color:var(--whatsapp); font-weight:600;">2 / 2 OPEN (CALL &amp; WA)</span>
+              </div>
+              <div class="telemetry-row">
+                <span class="telemetry-label">AVG LIGHTHOUSE</span>
+                <span style="color:var(--blue); font-weight:600;">99.4 / 100 SPEED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         METRICS BAR SECTION
+         ========================================================================= -->
+    <div class="metrics-strip">
+      <div class="wrap">
+        <div class="metrics-grid reveal">
+          <div class="metric-item">
+            <div class="metric-num"><span class="accent-green">99</span><span style="font-size:1.4rem;">+</span></div>
+            <div class="metric-label">Avg Lighthouse Speed Score</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num"><span class="accent-red">5-7</span><span style="font-size:1.4rem;">D</span></div>
+            <div class="metric-label">Rapid Sprint Turnaround</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num"><span class="accent-blue">100</span><span style="font-size:1.4rem;">%</span></div>
+            <div class="metric-label">Custom Handcrafted Code</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-num"><span style="color:var(--amber);">2</span><span style="font-size:1.4rem;">4/7</span></div>
+            <div class="metric-label">WhatsApp Lead Capture</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         SERVICES SECTION
+         ========================================================================= -->
+    <section class="services-section" id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow" style="color:var(--blue);">
+            <span class="blip-dot" style="background:var(--blue);box-shadow:0 0 8px var(--blue);"></span>
+            Core Capabilities
+          </div>
+          <h2>One Studio, Four Signals.</h2>
+          <p>
+            We don't sell recycled themes or clunky website builders. Every pixel and line of code is structured to make your brand rank higher, load instantaneously, and convert visitors into WhatsApp inquiries.
+          </p>
+        </div>
+
+        <div class="services-grid reveal">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div>
+              <div class="service-header">
+                <span class="service-code mono">SIGNAL 01 // DESIGN</span>
+                <div class="service-icon-box">
+                  <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.79-1.79C9.17 20.25 10.54 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/></svg>
+                </div>
+              </div>
+              <h3>Brand &amp; UI/UX Architecture</h3>
+              <p>Visual identities and high-contrast layouts custom-tailored to your product category. Designed for supreme legibility, rapid scannability, and high brand authority.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Wireframing &amp; Design Token Systems
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Mobile-First Touch Target Optimization
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Dark &amp; Light Mode Accessibility
+                </div>
+              </div>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">FIGMA</span>
+              <span class="service-tag">UI/UX</span>
+              <span class="service-tag">DESIGN SYSTEMS</span>
+              <span class="service-tag">TYPOGRAPHY</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div>
+              <div class="service-header">
+                <span class="service-code mono">SIGNAL 02 // BUILD</span>
+                <div class="service-icon-box">
+                  <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                </div>
+              </div>
+              <h3>High-Performance Development</h3>
+              <p>Clean semantic code with zero framework bloat. Sub-second initial server responses, smooth hardware-accelerated animations, and stellar SEO indexability.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Lighthouse 99+ Speed Guaranteed
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Responsive Breakpoint Engineering
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Custom JavaScript APIs &amp; Dashboards
+                </div>
+              </div>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">HTML5 / ES6+</span>
+              <span class="service-tag">VANILLA CSS</span>
+              <span class="service-tag">REACT / NEXT.JS</span>
+              <span class="service-tag">REST APIS</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div>
+              <div class="service-header">
+                <span class="service-code mono" style="color:var(--whatsapp);">SIGNAL 03 // CONVERSION</span>
+                <div class="service-icon-box" style="color:var(--whatsapp);">
+                  <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                </div>
+              </div>
+              <h3>WhatsApp &amp; Instagram Commerce</h3>
+              <p>Turn casual browsers into immediate direct conversations. Interactive pricing calculators, pre-formatted WhatsApp spec senders, and live Instagram feed embeds.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  1-Click WhatsApp Lead Routers
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Automated Quote Formatter Payloads
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Instagram Direct (ig.me) &amp; Stories Sync
+                </div>
+              </div>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">WHATSAPP API</span>
+              <span class="service-tag">INSTAGRAM GRAPH</span>
+              <span class="service-tag">CONVERSATIONAL UI</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div>
+              <div class="service-header">
+                <span class="service-code mono" style="color:var(--amber);">SIGNAL 04 // UPKEEP</span>
+                <div class="service-icon-box" style="color:var(--amber);">
+                  <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                </div>
+              </div>
+              <h3>Continuous Care, SEO &amp; Hosting</h3>
+              <p>Your site stays blazing fast 365 days a year. We handle global CDN caching, automated backups, security patching, and on-demand content updates.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Edge CDN Deployment &amp; SSL
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Structured Schema &amp; Google Search Console
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Same-Day Content Revisions
+                </div>
+              </div>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">CLOUDFLARE</span>
+              <span class="service-tag">TECHNICAL SEO</span>
+              <span class="service-tag">24/7 MONITORING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PORTFOLIO & CASE STUDIES
+         ========================================================================= -->
+    <section class="work-section" id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">
+            <span class="blip-dot"></span>
+            Case Studies
+          </div>
+          <h2>Shipped Transmissions.</h2>
+          <p>
+            Explore live builds engineered for real companies across retail, logistics, healthcare, and software. Tap any card to inspect code details.
+          </p>
+        </div>
+
+        <div class="portfolio-filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Builds</button>
+          <button class="filter-btn" data-filter="e-commerce">E-Commerce &amp; D2C</button>
+          <button class="filter-btn" data-filter="saas">SaaS &amp; Web Apps</button>
+          <button class="filter-btn" data-filter="corporate">Corporate</button>
+          <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+        </div>
+
+        <div class="portfolio-grid reveal" id="portfolioGrid">
+          <!-- Dynamically Rendered by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         INTERACTIVE WHATSAPP ESTIMATOR & PRICING
+         ========================================================================= -->
+    <section class="calc-section" id="calculator">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow" style="color:var(--whatsapp);">
+            <span class="blip-dot" style="background:var(--whatsapp);box-shadow:0 0 8px var(--whatsapp);"></span>
+            Live Project Configurator
+          </div>
+          <h2>Configure Your Build. Dispatch to WhatsApp.</h2>
+          <p>
+            Select your project specifications below for an instant real-time quote. With one click, send the exact build blueprint straight to our WhatsApp dispatch line.
+          </p>
+        </div>
+
+        <div class="estimator-container reveal">
+          <!-- Left: Config Options -->
+          <div class="calc-builder">
+            <div class="calc-step">
+              <h3 class="calc-section-title">
+                <span class="mono" style="color:var(--red);font-size:0.9rem;">01 //</span>
+                Choose Project Scope
+              </h3>
+              <div class="calc-options-grid" id="calcTypesGrid">
+                <!-- Injected via calculator.js -->
+              </div>
+            </div>
+
+            <div class="calc-step">
+              <h3 class="calc-section-title">
+                <span class="mono" style="color:var(--blue);font-size:0.9rem;">02 //</span>
+                Select High-Impact Add-ons
+              </h3>
+              <div class="calc-checkboxes" id="calcAddonsGrid">
+                <!-- Injected via calculator.js -->
+              </div>
+            </div>
+
+            <div class="calc-step">
+              <h3 class="calc-section-title">
+                <span class="mono" style="color:var(--amber);font-size:0.9rem;">03 //</span>
+                Select Delivery Timeline
+              </h3>
+              <select class="form-select mono" id="calcUrgency" style="background:var(--surface-2);color:var(--text);">
+                <option value="standard">Standard Delivery Pace (No Rush Fee)</option>
+                <option value="express">Express Sprint (Guaranteed 5-7 Days Delivery) (+25%)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Right: Real-time Price Summary Card -->
+          <div class="calc-price-summary-card">
+            <div>
+              <div class="summary-header">
+                <span class="badge badge-whatsapp" style="margin-bottom:8px;">Live Quote Engine</span>
+                <h3>Project Investment</h3>
+                <p style="font-size:0.84rem; color:var(--text-muted);">Bengaluru studio rates · Transparent pricing</p>
+              </div>
+
+              <div class="summary-items">
+                <div class="summary-item">
+                  <span>Selected Model:</span>
+                  <span class="item-val" id="calcSummaryType">Landing Page</span>
+                </div>
+                <div class="summary-item">
+                  <span>Add-ons Included:</span>
+                  <span class="item-val" id="calcSummaryAddons">2 selected</span>
+                </div>
+                <div class="summary-item">
+                  <span>Target Handover:</span>
+                  <span class="item-val" id="calcSummaryTimeline">5 - 7 Days</span>
+                </div>
+                <div class="summary-item">
+                  <span>Studio Support:</span>
+                  <span class="item-val" style="color:var(--whatsapp);">Direct Senior Dev</span>
+                </div>
+              </div>
+
+              <div class="summary-total-box">
+                <div class="summary-total-label">Estimated Total (INR)</div>
+                <div class="summary-total-price" id="calcSummaryTotal">₹25,997</div>
+                <div class="summary-timeline">
+                  <span>✓ 50% on Kickoff / 50% on Handover</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-actions">
+              <button class="btn btn-whatsapp btn-lg" id="calcSendWhatsApp" style="width:100%;">
+                <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                Send Spec via WhatsApp
+              </button>
+              <a href="tel:+919692281388" class="btn btn-ghost btn-sm" style="text-align:center;">
+                Or Call Senior Lead: +91 96922 81388
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         INSTAGRAM LIVE HUB & STORIES
+         ========================================================================= -->
+    <section class="instagram-section" id="instagram">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow" style="color:var(--insta-3);">
+            <span class="blip-dot" style="background:var(--insta-3);box-shadow:0 0 8px var(--insta-3);"></span>
+            Instagram Studio Hub
+          </div>
+          <h2>Behind the Code. Daily Transmissions.</h2>
+          <p>
+            Tap our Instagram Story highlights to see behind-the-scenes engineering, live client launches, and technical breakdowns.
+          </p>
+        </div>
+
+        <div class="instagram-hub-card reveal">
+          <!-- Profile Banner -->
+          <div class="insta-profile-header">
+            <div class="insta-profile-main">
+              <div class="insta-avatar-ring">
+                <div class="insta-avatar">SC</div>
+              </div>
+              <div class="insta-profile-text">
+                <h3>
+                  sirencorp.studio
+                  <span class="insta-verified-badge" title="Verified Studio Account">
+                    <svg viewBox="0 0 24 24" style="fill:currentColor;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                  </span>
+                </h3>
+                <div class="insta-handle">SirenCorp Web Studio · Bengaluru</div>
+                <p class="insta-bio">⚡ High-velocity web engineering | WhatsApp &amp; Instagram Commerce</p>
+              </div>
+            </div>
+
+            <div class="insta-stats-group">
+              <div class="insta-stat">
+                <span class="insta-stat-num">142</span>
+                <span class="insta-stat-label">Posts</span>
+              </div>
+              <div class="insta-stat">
+                <span class="insta-stat-num">4.8k</span>
+                <span class="insta-stat-label">Followers</span>
+              </div>
+              <div class="insta-stat">
+                <span class="insta-stat-num">99.8%</span>
+                <span class="insta-stat-label">Satisfaction</span>
+              </div>
+            </div>
+
+            <div style="display:flex; gap:10px;">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-insta btn-sm">
+                Follow @sirencorp
+              </a>
+              <button class="btn btn-ghost btn-sm" data-insta-dm>
+                Message on IG Direct
+              </button>
+            </div>
+          </div>
+
+          <!-- Story Highlights Bar -->
+          <div class="insta-stories-bar" id="instaStoriesBar">
+            <!-- Injected via instagram.js -->
+          </div>
+
+          <!-- Grid Showcase -->
+          <div class="insta-grid" id="instaGrid">
+            <!-- Injected via instagram.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CLIENT REVIEWS / TRANSMISSION LOGS
+         ========================================================================= -->
+    <section class="reviews-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow" style="color:var(--amber);">
+            <span class="blip-dot"></span>
+            Verified Transmissions
+          </div>
+          <h2>What Clients Say.</h2>
+          <p>Real feedback from business owners and founders who deployed their websites with SirenCorp.</p>
+        </div>
+
+        <div class="reviews-grid reveal">
+          <div class="review-card">
+            <div class="review-meta">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <span class="review-channel">VIA WHATSAPP DISPATCH</span>
+            </div>
+            <p class="review-quote">
+              "SirenCorp delivered our audio store in just 6 days. The WhatsApp direct ordering integration increased our mobile conversion rate by over 200%. Unbelievably fast."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">RK</div>
+              <div class="reviewer-details">
+                <h4>Rohit Kulkarni</h4>
+                <p>Founder, Aura Audio Labs (Indiranagar, BLR)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-meta">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <span class="review-channel">VIA INSTAGRAM DM</span>
+            </div>
+            <p class="review-quote">
+              "Being able to directly call the developer in Bengaluru instead of talking to a support bot made all the difference. Our architecture portfolio looks world-class."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">VS</div>
+              <div class="reviewer-details">
+                <h4>Vikram Sethi</h4>
+                <p>Principal Architect, Verve Studio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-meta">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <span class="review-channel">VIA DIRECT LINE 1</span>
+            </div>
+            <p class="review-quote">
+              "They rebuilt our clinic website with WhatsApp instant booking. Patient appointments doubled within the first month. 10/10 recommend."
+            </p>
+            <div class="reviewer-profile">
+              <div class="reviewer-avatar">AN</div>
+              <div class="reviewer-details">
+                <h4>Dr. Ananya Nair</h4>
+                <p>Medical Director, Zenith Clinics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FAQ SECTION (ACCORDION)
+         ========================================================================= -->
+    <section class="faq-section" id="faq">
+      <div class="wrap">
+        <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+          <div class="eyebrow" style="justify-content:center; color:var(--blue);">
+            <span class="blip-dot" style="background:var(--blue);"></span>
+            Clarifications
+          </div>
+          <h2>Frequently Answered Questions</h2>
+          <p>Everything you need to know about working with SirenCorp.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question">
+              How does the WhatsApp integration work on our website?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              We engineer custom WhatsApp routing directly into your website. When visitors click product buttons or complete inquiries, it generates pre-formatted, structured message payloads directly into your business WhatsApp inbox. You receive the exact customer specification with zero manual data entry.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How fast can SirenCorp build and launch our website?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Our standard turnaround is 10 to 14 business days for multi-page websites. If you have an urgent product launch or marketing campaign, our Express Sprint option delivers a fully customized, high-converting landing page within 5 to 7 days.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Why do you build with custom code instead of WordPress or Wix?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Website builders inject hundreds of redundant scripts and bloated CSS that slow down mobile loading times. By writing clean, semantic HTML5, CSS3, and modern JavaScript, your site achieves sub-400ms loading speeds, higher Google SEO rankings, and zero vulnerability to third-party plugin security breaches.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Can I update text and images myself after the website is live?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Yes! We can integrate an intuitive headless CMS or admin dashboard where you can easily update products, blog posts, pricing, and banners without touching code. We also offer monthly care plans where we make changes for you within 24 hours.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How does Instagram integration benefit our brand?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              We embed live Instagram Stories, Reels, and direct Instagram DM triggers (`ig.me`) that connect your social media followers to your website and vice-versa, creating a seamless omni-channel sales pipeline.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CONTACT / MISSION DISPATCH CENTER
+         ========================================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow" style="color:var(--red);">
+            <span class="blip-dot" style="background:var(--red);box-shadow:0 0 8px var(--red);"></span>
+            Direct Lines Open
+          </div>
+          <h2>Ready to Build? Talk to Us.</h2>
+          <p>
+            Connect directly with our Bengaluru development team. Call either number, chat on WhatsApp, or send a project brief below.
+          </p>
+        </div>
+
+        <div class="dispatch-grid reveal">
+          <!-- Dispatch Card -->
+          <div class="dispatch-card">
+            <div>
+              <div class="dispatch-header">
+                <span class="tag">SIRENCORP · CENTRAL DISPATCH</span>
+                <h3>Direct Phone &amp; WhatsApp Lines</h3>
+                <div class="location-badge">
+                  <span class="blip"></span>
+                  Bengaluru, Karnataka, India (IST / UTC+5:30)
+                </div>
+              </div>
+
+              <div class="call-lines-stack">
+                <!-- Line 1 -->
+                <div class="call-card-item" data-num="+919692281388" data-display="+91 96922 81388">
+                  <div class="call-num-group">
+                    <span class="call-label"><span class="signal-dot"></span>LINE 1 · STUDIO LEAD</span>
+                    <span class="call-number">+91 96922 81388</span>
+                  </div>
+                  <div class="call-item-actions">
+                    <a href="tel:+919692281388" class="action-icon-btn" title="Call Line 1">
+                      <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-2.2 2.2a15.053 15.053 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1.01A11.36 11.36 0 018.5 3.99c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM5.03 5c.09 1.32.35 2.59.75 3.8l-1.2 1.2c-.41-1.57-.67-3.23-.73-4.99l1.18-.01zM19 18.97c-1.76-.06-3.42-.32-4.99-.73l1.2-1.2c1.21.4 2.48.66 3.8.75v1.18z"/></svg>
+                    </a>
+                    <button class="action-icon-btn wa-btn" data-wa-action data-wa-line="line1" title="WhatsApp Line 1">
+                      <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Line 2 -->
+                <div class="call-card-item" data-num="+916371055013" data-display="+91 63710 55013">
+                  <div class="call-num-group">
+                    <span class="call-label"><span class="signal-dot"></span>LINE 2 · TECH &amp; CODE ARCHITECTURE</span>
+                    <span class="call-number">+91 63710 55013</span>
+                  </div>
+                  <div class="call-item-actions">
+                    <a href="tel:+916371055013" class="action-icon-btn" title="Call Line 2">
+                      <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-2.2 2.2a15.053 15.053 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1.01A11.36 11.36 0 018.5 3.99c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
+                    </a>
+                    <button class="action-icon-btn wa-btn" data-wa-action data-wa-line="line2" title="WhatsApp Line 2">
+                      <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-top:16px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center;">
+              <span class="mono" style="font-size:0.78rem; color:var(--text-dim);">TAP NUMBERS TO COPY</span>
+              <button class="btn btn-insta btn-sm" data-insta-dm>
+                Instagram DM
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Inquiry Form -->
+          <div class="inquiry-form-box">
+            <h3 style="font-size:1.5rem; margin-bottom:6px;">Instant Project Inquiry</h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:20px;">
+              Submitting opens a pre-formatted WhatsApp chat directly with our senior lead.
+            </p>
+
+            <form id="quickInquiryForm">
+              <div class="form-group">
+                <label class="form-label mono" for="inqName">Your Name / Business Name</label>
+                <input type="text" id="inqName" class="form-input" placeholder="e.g. Anand Sharma (Aura Retail)" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label mono" for="inqPhone">Phone Number / WhatsApp</label>
+                <input type="tel" id="inqPhone" class="form-input" placeholder="+91 XXXXX XXXXX" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label mono" for="inqType">Project Requirement</label>
+                <select id="inqType" class="form-select">
+                  <option value="Landing Page Build">High-Speed Landing Page</option>
+                  <option value="Corporate Website">Corporate Multi-Page Site</option>
+                  <option value="E-Commerce + WhatsApp Store">E-Commerce + WhatsApp Catalog</option>
+                  <option value="Website Redesign & Speed Optimization">Website Redesign &amp; Speed Boost</option>
+                  <option value="Custom Web App">Custom Web Application</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label mono" for="inqNotes">Key Goals or Reference Links (Optional)</label>
+                <textarea id="inqNotes" class="form-textarea" placeholder="Tell us about your brand, preferred style, or target launch date..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-whatsapp btn-lg" style="width:100%;">
+                <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+                Open Spec in WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:12px;">
+            <div class="logo-radar"><span class="logo-mark"></span></div>
+            SIRENCORP
+          </div>
+          <p>
+            Bespoke web design and engineering studio in Bengaluru. We build high-speed, conversion-focused websites that get noticed.
+          </p>
+          <div class="mono" style="font-size:0.8rem; color:var(--text-dim);">
+            HQ: Bengaluru, Karnataka, India
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="#services">Capabilities</a>
+            <a href="#work">Featured Work</a>
+            <a href="#calculator">Price Configurator</a>
+            <a href="#instagram">Instagram Hub</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Lines</h4>
+          <div class="footer-links mono">
+            <a href="tel:+919692281388">Line 1: 96922 81388</a>
+            <a href="tel:+916371055013">Line 2: 63710 55013</a>
+            <a href="https://wa.me/919692281388" target="_blank" rel="noopener noreferrer" style="color:var(--whatsapp);">WhatsApp Chat</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style="color:#f09433;">Instagram Direct</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Station Status</h4>
+          <div class="mono" style="font-size:0.8rem; color:var(--text-muted); line-height:1.7;">
+            <div>STATUS: <span style="color:var(--whatsapp);">● ON AIR</span></div>
+            <div>AVG SPEED: <span style="color:var(--blue);">99.4/100</span></div>
+            <div>UPTIME: 99.98%</div>
+            <div>LOCATION: BENGALURU, KA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 SirenCorp Studio. All rights reserved.</span>
+        <span class="mono">BUILT IN BENGALURU, KARNATAKA</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       FLOATING WHATSAPP CHAT DISPATCH WIDGET
+       ========================================================================= -->
+  <div class="floating-wa-container">
+    <!-- Chat Window -->
+    <div class="wa-chat-window" id="waChatWindow">
+      <div class="wa-chat-header">
+        <div class="wa-header-info">
+          <div class="wa-avatar">SC</div>
+          <div class="wa-header-text">
+            <h4>SirenCorp Dispatch</h4>
+            <p>Lead Engineer Online · Bengaluru</p>
+          </div>
+        </div>
+        <button class="wa-close-btn" id="waCloseBtn" aria-label="Close WhatsApp chat">&times;</button>
+      </div>
+
+      <div class="wa-chat-body">
+        <div class="wa-bubble-incoming">
+          👋 Hi! Welcome to SirenCorp. How can we help you build your website today? Tap a quick option or type below:
+        </div>
+
+        <div class="wa-quick-options" id="waQuickOptions">
+          <!-- Injected via whatsapp.js -->
+        </div>
+      </div>
+
+      <div class="wa-chat-footer">
+        <input type="text" class="wa-input-box" id="waInputBox" placeholder="Type your inquiry message...">
+        <button class="wa-send-btn" id="waSendBtn" aria-label="Send via WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Trigger Button -->
+    <button class="wa-trigger-btn" id="waTriggerBtn" aria-label="Open WhatsApp Chat">
+      <span class="wa-badge-pulse"></span>
+      <svg viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.101.005.234-.039.366.279.144.347.491 1.2.534 1.288.043.088.072.191.014.307-.058.116-.087.188-.173.289l-.26.302c-.087.088-.178.183-.077.357.101.174.45 1.025.965 1.485.663.592 1.222.775 1.396.862.174.087.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+    </button>
+  </div>
+
+  <!-- =========================================================================
+       INSTAGRAM STORY MODAL LIGHTBOX
+       ========================================================================= -->
+  <div class="modal-backdrop" id="storyModal">
+    <div class="story-modal-container">
+      <button class="modal-close-btn" aria-label="Close Story">&times;</button>
+      
+      <!-- Progress bar -->
+      <div class="story-progress-bar">
+        <div class="story-bar-segment">
+          <div class="story-bar-fill" id="storyFillBar"></div>
+        </div>
+      </div>
+
+      <!-- Story header -->
+      <div class="story-header-bar">
+        <div class="story-header-info">
+          <div class="insta-avatar" style="width:28px;height:28px;font-size:0.75rem;">SC</div>
+          <div>
+            <div>sirencorp.studio</div>
+            <div class="mono" id="storySub" style="font-size:0.68rem;opacity:0.8;">Bengaluru · Case Studies</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Body -->
+      <div class="story-body-content" id="storyCardBody">
+        <span class="badge badge-red" id="storyBadge" style="margin-bottom:14px;">Case Study</span>
+        <h3 id="storyHeading" style="font-size:1.7rem;margin-bottom:12px;color:#fff;">Sub-Second Shipped</h3>
+        <p id="storyContent" style="font-size:0.95rem;color:rgba(255,255,255,0.9);line-height:1.6;margin-bottom:18px;">
+          Speed breakdown of our recent high-converting build in Bengaluru.
+        </p>
+        <div class="mono" id="storyStat" style="font-size:1.1rem;color:var(--whatsapp);font-weight:700;">
+          99/100 Mobile Speed
+        </div>
+      </div>
+
+      <!-- Story CTA -->
+      <div class="story-cta-bottom">
+        <button class="btn btn-insta" style="width:100%;" data-insta-dm>
+          Send DM on Instagram
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       PROJECT DETAILS MODAL LIGHTBOX
+       ========================================================================= -->
+  <div class="modal-backdrop" id="projectModal">
+    <div class="modal-container" style="padding:36px;">
+      <button class="modal-close-btn" aria-label="Close Modal">&times;</button>
+      
+      <div style="display:flex; align-items:center; gap:16px; margin-bottom:20px;">
+        <span id="modalProjIcon" style="font-size:3rem;">⚡</span>
+        <div>
+          <h3 id="modalProjTitle" style="font-size:1.8rem; margin-bottom:4px;">Project Title</h3>
+          <div class="mono" id="modalProjCategory" style="color:var(--blue); font-size:0.84rem;">Category</div>
+        </div>
+      </div>
+
+      <p id="modalProjDesc" style="color:var(--text-muted); font-size:1rem; line-height:1.7; margin-bottom:20px;">
+        Detailed description of the architectural decisions, conversion hooks, and performance characteristics.
+      </p>
+
+      <div class="mono" id="modalProjStats" style="background:var(--surface-2); padding:12px 16px; border-radius:var(--radius-sm); border:1px solid var(--line); color:var(--whatsapp); font-size:0.88rem; margin-bottom:22px;">
+        Key Metrics
+      </div>
+
+      <div style="margin-bottom:26px;">
+        <div class="mono" style="font-size:0.75rem; color:var(--text-dim); text-transform:uppercase; margin-bottom:8px;">Technologies &amp; Integrations</div>
+        <div id="modalProjStack" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+      </div>
+
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <button class="btn btn-whatsapp" id="modalProjWaBtn" style="flex:1;">
+          Inquire About Similar Build on WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       STICKY MOBILE BOTTOM ACTION BAR
+       ========================================================================= -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:+919692281388" class="m-call">
+      📞 Call
+    </a>
+    <button class="m-wa" data-wa-action data-wa-line="line1">
+      💬 WhatsApp
+    </button>
+    <button class="m-insta" data-insta-dm>
+      📸 Insta DM
+    </button>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Copied to clipboard</div>
+
+  <!-- Main JavaScript App Entry -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
